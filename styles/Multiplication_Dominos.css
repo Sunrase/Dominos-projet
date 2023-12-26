@@ -1,0 +1,137 @@
+/* Définition des styles pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+  }
+  
+  /* Styles pour l'en-tête */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  /* Styles pour l'article contenant les règles du jeu */
+  article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .regle {
+    margin-bottom: 20px;
+  }
+  
+  .regle h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .regle p {
+    margin: 5px 0;
+  }
+  
+  .regle img {
+    margin-right: 5px;
+  }
+  
+  /* Styles pour les images des dominos */
+  .imgs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    top: 20px;
+  }
+
+  .img0 {
+    position: relative;
+    top: -32px;
+    left: 16px;
+  }
+
+  .img1 {
+    position: relative;
+    left: -16px;
+  }
+
+  .img2 {
+    position: relative;
+    top: -32px;
+    left: 16px;
+  }
+
+  .img3 {
+    position: relative;
+    left: -16px;
+  }
+
+  .multiplicateur {
+    position: relative;
+    top: -15px;
+  }
+
+  .verifier {
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  
+  /* Styles pour le champ de texte et le bouton */
+  #resultat_ab {
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  #bouton_verifier {
+    padding: 8px 15px;
+    font-size: 1em;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #bouton_verifier:hover {
+    background-color: #555;
+  }
+  
+  /* Styles pour les messages de résultat */
+  .resultats {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style pour le bouton "Rejouer" */
+  .bouton_rejouer {
+    text-align: center;
+  }
+
+  button {
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
